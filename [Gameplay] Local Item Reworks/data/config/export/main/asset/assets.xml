@@ -1,0 +1,43 @@
+<ModOps>
+
+  <!-- Extrem laute Glocke -->
+    
+  <ModOP Type="Merge" GUID='192305' Path="/Values">
+    <BuildingUpgrade>
+      <MaintenanceUpgrade>
+        <Value>30</Value>
+        <Percental>1</Percental>
+      </MaintenanceUpgrade>
+      <WorkforceAmountUpgrade>
+        <Value>-70</Value>
+        <Percental>1</Percental>
+      </WorkforceAmountUpgrade>
+    </BuildingUpgrade>
+  </ModOP>
+
+  <ModOp Type="add" GUID='77' Path="/Values/ItemCrafter/CraftableItemsInRegion/Moderate/CraftableItems">
+    <Item>
+       <Item>192305</Item>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID='192305' Path="/Values">
+    <CraftableItem>
+      <CraftingCosts>
+        <Item>
+          <Product>112523</Product>
+          <Amount>30</Amount>
+        </Item>
+        <Item>
+          <Product>120008</Product>
+          <Amount>30</Amount>
+        </Item>
+        <Item>
+          <Product>1010219</Product>
+          <Amount>50</Amount>
+        </Item>        
+      </CraftingCosts>
+    </CraftableItem>
+  </ModOp>
+
+</ModOps>

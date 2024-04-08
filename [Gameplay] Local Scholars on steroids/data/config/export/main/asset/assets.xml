@@ -1,0 +1,135 @@
+<ModOps>
+  <!-- 
+    126888 Godlike Research Cost Balancing
+    128475 ItemCraftingResearchCostsCommon
+    128952 ItemCraftingResearchCostsUncommon
+    123401 RecipeResearchCostsBalancing
+    128953 ItemCraftingResearchCostsRare
+    128954 ItemCraftingResearchCostsEpic
+    128955 ItemCraftingResearchCostsLegendary
+    129525 PermitCraftingCostsBalancing
+    120244 Research Feature
+  -->
+
+  <!-- GodlikeResearchCostsBalancing -->
+
+  <ModOp Type="replace" GUID='126888' Path="/Values/ProgressBalancing/AbsoluteLimit">
+    <AbsoluteLimit>50000</AbsoluteLimit>
+  </ModOp>
+
+  <!-- Common Items -->
+
+  <ModOp Type="add" GUID='128475' Path="/Values/ProgressBalancing">
+    <AbsoluteLimit>1250</AbsoluteLimit>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='128475' Path="/Values/ProgressBalancing/Progress/Item/Value">
+    <Value>250</Value>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='128475' Path="/Values/ProgressBalancing/PostProgress/ValueIncrease">
+    <ValueIncrease>250</ValueIncrease>
+  </ModOp>
+
+  <!-- Uncommon Items -->
+
+  <ModOp Type="add" GUID='128952' Path="/Values/ProgressBalancing">
+    <AbsoluteLimit>2500</AbsoluteLimit>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='128952' Path="/Values/ProgressBalancing/Progress/Item/Value">
+    <Value>500</Value>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='128952' Path="/Values/ProgressBalancing/PostProgress/ValueIncrease">
+    <ValueIncrease>500</ValueIncrease>
+  </ModOp>
+
+  <!-- RecipeResearchCostBalancing -->
+
+  <ModOp Type="add" GUID='123401' Path="/Values/ProgressBalancing">
+    <AbsoluteLimit>2500</AbsoluteLimit>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='123401' Path="/Values/ProgressBalancing/Progress/Item/Value">
+    <Value>100</Value>
+  </ModOp>
+
+  <!-- Rare Items -->
+
+  <ModOp Type="add" GUID='128953' Path="/Values/ProgressBalancing">
+    <AbsoluteLimit>5000</AbsoluteLimit>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='128953' Path="/Values/ProgressBalancing/Progress/Item/Value">
+    <Value>1000</Value>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='128953' Path="/Values/ProgressBalancing/PostProgress/ValueIncrease">
+    <ValueIncrease>1000</ValueIncrease>
+  </ModOp>
+
+  <!-- Epic Items -->
+
+  <ModOp Type="add" GUID='128954' Path="/Values/ProgressBalancing">
+    <AbsoluteLimit>12500</AbsoluteLimit>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='128954' Path="/Values/ProgressBalancing/Progress/Item/Value">
+    <Value>2500</Value>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='128954' Path="/Values/ProgressBalancing/PostProgress/ValueIncrease">
+    <ValueIncrease>2500</ValueIncrease>
+  </ModOp>
+
+  <!-- Legendary Items -->
+
+  <ModOp Type="add" GUID='128955' Path="/Values/ProgressBalancing">
+    <AbsoluteLimit>50000</AbsoluteLimit>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='128955' Path="/Values/ProgressBalancing/Progress/Item/Value">
+    <Value>10000</Value>
+  </ModOp>
+
+  <!-- Legendary Value Increase is at 10000, no changes must be made -->
+
+  <!-- PermitCraftingCostsBalancing-->
+
+  <ModOp Type="add" GUID='129525' Path="/Values/ProgressBalancing">
+    <AbsoluteLimit>100</AbsoluteLimit>
+  </ModOp>
+
+  <!-- ResearchFeature -->
+
+  <ModOp GUID = '120244' Type = "replace" Path = '/Values/ResearchFeature/ItemCraftingConfig/*/MaximumWorkforceAmount'>
+        <MaximumWorkforceAmount>5000</MaximumWorkforceAmount>
+  </ModOp>
+
+  <ModOp GUID = '120244' Type = "replace" Path = '/Values/ResearchFeature/ItemCraftingConfig/*/MinimumWorkforceAmount'>
+        <MinimumWorkforceAmount>1</MinimumWorkforceAmount>
+  </ModOp>
+
+  <ModOp Path = "//Godlike/CraftingConfig/MinimumWorkforceAmount" Type = "replace">
+        <MinimumWorkforceAmount>1</MinimumWorkforceAmount>
+  </ModOp>
+  <ModOp Path = "//Godlike/CraftingConfig/MaximumWorkforceAmount" Type = "replace">
+        <MaximumWorkforceAmount>10000</MaximumWorkforceAmount>
+  </ModOp>
+
+  <ModOp Path = "//Godlike/CraftingConfig/MinimumWorkforceTime" Type = "replace">
+        <MinimumWorkforceTime>600000</MinimumWorkforceTime>
+  </ModOp>
+  <ModOp Path = "//Godlike/CraftingConfig/MaximumWorkforceTime" Type = "replace">
+        <MaximumWorkforceTime>30000</MaximumWorkforceTime>
+  </ModOp>
+
+  <ModOp GUID = '120244' Type = "replace" Path = '/Values/ResearchFeature/ItemCraftingConfig/*/MaximumWorkforceTime'>
+        <MaximumWorkforceTime>30000</MaximumWorkforceTime>
+  </ModOp>
+  <ModOp GUID = '120244' Type = "replace" Path = '/Values/ResearchFeature/ItemCraftingConfig/*/MinimumWorkforceTime'>
+        <MinimumWorkforceTime>600000</MinimumWorkforceTime>
+  </ModOp>
+
+</ModOps>

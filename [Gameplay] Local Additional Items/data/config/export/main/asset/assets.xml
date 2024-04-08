@@ -1,0 +1,1488 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="192454">
+    <Asset>
+    	<Template>VehicleBuff</Template>
+    	<Values>
+    		<Standard>
+    			<GUID>2122340500</GUID>
+    			<Name>Jones_buff</Name>
+    			<IconFilename>data/graphics/buffs/buff_lucas_jones.png</IconFilename>
+    		</Standard>
+    		<Text>
+    			<LocaText>
+    				<English>
+    					<Text>Jones Buff</Text>
+    					<Status>Exported</Status>
+    				</English>
+    			</LocaText>
+    		</Text>
+    		<VehicleUpgrade/>
+    		<Buff/>
+    		<AttackerUpgrade>
+          <AttackRangeUpgrade>
+				    <Value>15</Value>
+				    <Percental>1</Percental>
+			    </AttackRangeUpgrade>
+			    <BaseDamageUpgrade>
+			    	<Value>-25</Value>
+			    	<Percental>1</Percental>
+			    </BaseDamageUpgrade>
+			    <!--ReloadTimeUpgrade>
+			    	<Value>-50</Value>
+			    	<Percental>1</Percental>
+          </ReloadTimeUpgrade-->
+          <AttackSpeedUpgrade>50</AttackSpeedUpgrade>
+    			<UseProjectile>102626</UseProjectile>
+    		</AttackerUpgrade>
+    		<AttackableUpgrade/>
+    		<ProjectileUpgrade/>
+    		<TradeShipUpgrade/>
+    		<UpgradeList/>
+    		<ItemEffect/>
+    		<DivingBellUpgrade/>
+    	</Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="127455" Path="/Values/RewardPool/ItemsPool"> <!-- Africa - Specialists - Epic -->
+    <Item>
+      <ItemLink>2122340010</ItemLink>
+      <Weight>10</Weight> <!-- Lisa Anselmann, Lesemaus 2122340010-2122340011-->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="193870" Path="/Values/RewardPool/ItemsPool"> <!-- Palace Replacement Specialists Pool -->
+    <Item>
+      <ItemLink>2122340002</ItemLink>
+      <Weight>10</Weight> <!-- Daniel Straub 2122340002-2122340003-->
+    </Item>
+    <Item>
+      <ItemLink>2122340006</ItemLink>
+      <Weight>10</Weight> <!-- Lea Kraft, Anti-Pelz Demonstrant 2122340006-212234007 -->
+    </Item>
+    <Item>
+      <ItemLink>2122340008</ItemLink>
+      <Weight>10</Weight> <!-- Thomas Hartmann des Honigs 2122340008-212234009-->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="193088" Path="/Values/RewardPool/ItemsPool"> <!-- Specialists - Obrero Specialists - Epic -->
+    <Item>
+      <ItemLink>2122340010</ItemLink>
+      <Weight>10</Weight> <!-- Lisa Anselmann, Lesemaus 2122340010-2122340011-->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="192730" Path="/Values/RewardPool/ItemsPool"> <!-- Specialists - European Goods - Rare -->
+    <Item>
+      <ItemLink>2122340020</ItemLink>
+      <Weight>10</Weight> <!-- Jill Bye 2122340020-2122340021-->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="192731" Path="/Values/RewardPool/ItemsPool"> <!-- Specialists - European Goods - Epic -->
+    <Item>
+      <ItemLink>2122340004</ItemLink>
+      <Weight>5</Weight><!-- Betty Frakes, Metzgereifachangestellte -->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="192732" Path="/Values/RewardPool/ItemsPool"> <!-- Specialists - European Goods - Legendary -->
+    <Item>
+      <ItemLink>2122340002</ItemLink>
+      <Weight>5</Weight> <!-- Daniel Straub 2122340002-2122340003-->
+    </Item>
+    <Item>
+      <ItemLink>2122340006</ItemLink>
+      <Weight>5</Weight> <!-- Lea Kraft, Anti-Pelz Demonstrant 2122340006-212234007 -->
+    </Item>
+    <Item>
+      <ItemLink>2122340008</ItemLink>
+      <Weight>5</Weight> <!-- Thomas Hartmann des Honigs 2122340008-212234009-->
+    </Item>
+    <Item>
+      <ItemLink>2122340010</ItemLink>
+      <Weight>5</Weight> <!-- Lisa Anselmann, Lesemaus 2122340010-2122340011-->
+    </Item>
+    <Item>
+      <ItemLink>2122340012</ItemLink>
+      <Weight>5</Weight> <!-- Jeffrey Journeyman, Schnellster Postbote des Westens 2122340012-2122340013-->
+    </Item>
+    <Item>
+      <ItemLink>2122340026</ItemLink>
+      <Weight>5</Weight> <!-- Felix Friedrich 2122340026-2122340027-->
+    </Item>
+    <Item>
+      <ItemLink>2122340028</ItemLink>
+      <Weight>5</Weight> <!-- Dominik Hummel 2122340028-2122340029-->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="193977" Path="/Values/RewardPool/ItemsPool"> <!-- Specialists - European Goods - Rare - Guild -->
+    <Item>
+      <ItemLink>2122340020</ItemLink>
+      <Weight>10</Weight> <!-- Jill Bye 2122340020-2122340021-->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="127474" Path="/Values/RewardPool/ItemsPool"> <!-- Scholar - Machines - Rare -->
+    <Item>
+      <ItemLink>2122340014</ItemLink>
+      <Weight>5</Weight> <!-- SCRAPER-69 2122340014-2122340015 -->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="127475" Path="/Values/RewardPool/ItemsPool"> <!-- Scholar - Machines - Epic -->
+    <Item>
+      <ItemLink>2122340016</ItemLink>
+      <Weight>5</Weight> <!-- SCRAPER-420 2122340016-2122340017 -->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="192712" Path="/Values/RewardPool/ItemsPool"> <!-- Machines - Repair Tools - Legendary -->
+    <Item>
+      <ItemLink>2122340018</ItemLink>
+      <Weight>5</Weight> <!-- SCRAPER-1337 2122340018-2122340019 -->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="191252" Path="/Values/RewardPool/ItemsPool"> <!-- Equipment Reward Pool (Inventions 3) -->
+    <Item>
+      <ItemLink>2122340018</ItemLink><!-- SCRAPER-1337 2122340018-2122340019 -->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="193072" Path="/Values/RewardPool/ItemsPool"> <!-- Specialists - Engineer Specialists - Rare -->
+    <Item>
+      <ItemLink>2122340020</ItemLink>
+      <Weight>5</Weight><!-- Jill Bye 2122340020-2122340021 -->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="192808" Path="/Values/RewardPool/ItemsPool"> <!-- Edicts - Good - Legendary -->
+    <Item>
+      <ItemLink>2122340022</ItemLink>
+      <Weight>2</Weight><!-- Paul Becker 2122340022-2122340023 -->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="192840" Path="/Values/RewardPool/ItemsPool"> <!-- Specialists - Europe and SA Goods - Legendary -->
+    <Item>
+      <ItemLink>2122340022</ItemLink>
+      <Weight>2</Weight><!-- Paul Becker 2122340022-2122340023 -->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="192727" Path="/Values/RewardPool/ItemsPool"> <!-- Machines - Evil Weapons - Legendary -->
+    <Item>
+      <ItemLink>2122340024</ItemLink>
+      <Weight>5</Weight> <!-- Lucas "Indie" Jones, der Amerikaner 2122340024-2122340025-->
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addnextSibling" GUID="130248">
+    <!--UNHIDE-->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340000</GUID> <!-- TRIGGER 0 -->
+          <Name>MOD Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>250</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>2122340002</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340004</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340006</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340008</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340010</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340012</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340014</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340016</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340018</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340020</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340022</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340024</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340026</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340028</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="addnextSibling" GUID="130248">
+    <!--UNLOCK-->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340001</GUID> <!-- TRIGGER 1 -->
+          <Name>MOD Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>1200</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>2122340002</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340004</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340006</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340008</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340010</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340012</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340014</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340016</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340018</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340020</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340022</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340024</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340026</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>2122340028</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  
+  <!-- Daniel Straub, Experte des gesunden Mischkonsums -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340002</GUID>
+          <Name>Daniel Straub</Name>
+          <IconFilename>data/graphics/icons/icon_daniel_straub.png</IconFilename>
+          <InfoDescription>2122340003</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>850000</TradePrice>
+          <TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010215</OldInput>
+              <NewInput>1010195</NewInput>
+            </Item>
+            <Item>
+              <OldInput>1010227</OldInput>
+              <NewInput>1010230</NewInput>
+            </Item>
+          </ReplaceInputs>
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010295</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>40</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2122340003</FluffText>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Betty Frakes, Metzgereifachangestellte -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340004</GUID>
+          <Name>Betty Frakes</Name>
+          <IconFilename>data/graphics/icons/icon_betty_frakes.png</IconFilename>
+          <InfoDescription>2122340005</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>269000</TradePrice>
+          <TradePriceOnlineCurrency>15</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>112694</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs />
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010316</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>10</Amount>
+            </Item>
+            <Item />
+            <Item />
+          </ExpeditionAttributes>
+          <ItemDifficulties>Medium</ItemDifficulties>
+          <FluffText>2122340005</FluffText>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Lea Kraft, Anti-Pelz Demonstrant -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340006</GUID>
+          <Name>Lea Kraft</Name>
+          <IconFilename>data/graphics/icons/icon_betty_frakes.png</IconFilename>
+          <InfoDescription>2122340007</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>850000</TradePrice>
+          <TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <ReplaceInputs>
+            <Item>
+              <OldInput>1010209</OldInput>
+              <NewInput>120044</NewInput>
+            </Item>
+          </ReplaceInputs>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010247</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs />
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010325</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkAnthropologist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2122340007</FluffText>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-10</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Thomas Hartmann, Mann des Honigs -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340008</GUID>
+          <Name>Thomas Hartmann</Name>
+          <IconFilename>data/graphics/icons/icon_daniel_straub.png</IconFilename>
+          <InfoDescription>2122340009</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>850000</TradePrice>
+          <TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <ProductivityUpgrade />
+          <AdditionalOutput>
+            <Item>
+              <Product>133183</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>5397</Product>
+              <AdditionalOutputCycle>10</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs />
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>114453</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2122340009</FluffText>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-50</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade>
+          <ModuleLimitPercent>-50</ModuleLimitPercent>
+        </ModuleOwnerUpgrade>
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Lisa Anselmann, Lesemaus -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340010</GUID>
+          <Name>Lisa Anselmann</Name>
+          <IconFilename>data/graphics/icons/icon_lisa_anselmann.png</IconFilename>
+          <InfoDescription>2122340011</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>Townhall</Allocation>
+          <TradePrice>269000</TradePrice>
+          <TradePriceOnlineCurrency>15</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190762</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>20</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkFemale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Medium</ItemDifficulties>
+          <FluffText>2122340011</FluffText>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>117698</ProvidedNeed>
+              <AmountInPercent>-100</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+        </ResidenceUpgrade>
+        <PopulationUpgrade>
+          <ResidentsUpgrade>
+            <Value>20</Value>
+            <Percental>1</Percental>
+          </ResidentsUpgrade>
+          <InputBenefitModifier>
+            <Item>
+              <Product>117698</Product>
+              <AdditionalSupply>5</AdditionalSupply>
+              <AdditionalHappiness>10</AdditionalHappiness>
+            </Item>
+          </InputBenefitModifier>
+        </PopulationUpgrade>
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Jeffrey Journeyman, schnellster Postmann des Westens -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340012</GUID>
+          <Name>Jeffrey Journeyman</Name>
+          <IconFilename>data/graphics/icons/icon_jeffrey_journeyman.png</IconFilename>
+          <InfoDescription>2122340013</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>Townhall</Allocation>
+          <TradePrice>985000</TradePrice>
+          <TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>535</Product>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs />
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>3741</GUID>
+            </Item>
+            <Item>
+              <GUID>3761</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <BaseMorale>30</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>5</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>2122340013</FluffText>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- SCRAPER-69 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340014</GUID>
+          <Name>SCRAPER-69</Name>
+          <IconFilename>data/graphics/icons/icon_scrap_1.png</IconFilename>
+          <InfoDescription>2122340015</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Rare</Rarity>
+          <Allocation>HarborOffice</Allocation>
+          <TradePrice>126000</TradePrice>
+          <TradePriceOnlineCurrency>20</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>112518</Product>
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs />
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>193400</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute />
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- SCRAPER-420 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340016</GUID>
+          <Name>SCRAPER-420</Name>
+          <IconFilename>data/graphics/icons/icon_scrap_2.png</IconFilename>
+          <InfoDescription>2122340017</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <Allocation>HarborOffice</Allocation>
+          <TradePrice>320000</TradePrice>
+          <TradePriceOnlineCurrency>35</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>112520</Product>
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs />
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>193400</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute />
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- SCRAPER-1337 -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340018</GUID>
+          <Name>SCRAPER-1337</Name>
+          <IconFilename>data/graphics/icons/icon_scrap_3.png</IconFilename>
+          <InfoDescription>2122340019</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <Allocation>HarborOffice</Allocation>
+          <TradePrice>780000</TradePrice>
+          <TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>112523</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs />
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>193400</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute />
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Jill Bye the fertilizer Guy -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340020</GUID>
+          <Name>Jill Bye</Name>
+          <IconFilename>data/graphics/icons/icon_jill_bye.png</IconFilename>
+          <InfoDescription>2122340021</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Rare</Rarity>
+          <Allocation>HarborOffice</Allocation>
+          <TradePrice>87000</TradePrice>
+          <TradePriceOnlineCurrency>20</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>24808</Product>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs />
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010310</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute />
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- Paul Becker, the GOAT -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340022</GUID>
+          <Name>Paul Becker</Name>
+          <IconFilename>data/graphics/icons/icon_paul_becker.png</IconFilename>
+          <InfoDescription>2122340023</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>5700000</TradePrice>
+          <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs />
+        </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>6000018</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <ItemDifficulties>Average;Hard</ItemDifficulties>
+          <BaseMorale>30</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade>
+          <WorkforceAmountUpgrade>
+            <Value>-20</Value>
+            <Percental>1</Percental>
+          </WorkforceAmountUpgrade>
+          <MaintenanceUpgrade>
+            <Value>200</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+	    <Template>ItemSpecialAction</Template>
+	    <Values>
+	    	<Standard>
+	    		<GUID>2122340024</GUID>
+	    		<Name>Lucas "Indie" Jones, der Amerikaner</Name>
+	    		<IconFilename>data/graphics/icons/icon_lucas_jones.png</IconFilename>
+	    		<InfoDescription>2122340025</InfoDescription>
+	    	</Standard>
+	    	<Text>
+	    		<LocaText>
+	    			<English>
+	    				<Text>Lucas "Indie" Jones</Text>
+	    				<Status>Exported</Status>
+	    			</English>
+	    		</LocaText>
+	    	</Text>
+	    	<Item>
+	    		<Allocation>Warship</Allocation>
+	    		<MaxStackSize>1</MaxStackSize>
+	    		<Rarity>Legendary</Rarity>
+          <HasAction>1</HasAction>
+          <ExclusiveGroup>AutoAttackProjectile</ExclusiveGroup>
+	    		<TradePrice>950000</TradePrice>
+	    		<TradePriceOnlineCurrency>100</TradePriceOnlineCurrency>
+	    	</Item>
+	    	<ItemAction>
+          <ItemAction>NOACTION</ItemAction>
+          <ActionScope>Self</ActionScope>
+          <ActiveBuff>2122340500</ActiveBuff>
+          <ActionDescription>20071</ActionDescription>
+          <CanEndItemAction>1</CanEndItemAction>
+          <StopMovementOnInteraction>0</StopMovementOnInteraction>
+	    	</ItemAction>
+	    	<ExpeditionAttribute>
+	    		<BaseMorale>20</BaseMorale>
+	    		<ExpeditionAttributes>
+	    			<Item>
+	    				<Attribute>PerkMale</Attribute>
+	    				<Amount>1</Amount>
+	    			</Item>
+	    			<Item>
+	    				<Attribute>Might</Attribute>
+	    				<Amount>50</Amount>
+	    			</Item>
+	    			<Item>
+	    				<Attribute>Melee</Attribute>
+	    				<Amount>30</Amount>
+	    			</Item>
+	    			<Item>
+	    				<Attribute>Diplomacy</Attribute>
+	    				<Amount>5</Amount>
+	    			</Item>
+	    		</ExpeditionAttributes>
+	    		<ItemDifficulties>Average;Hard</ItemDifficulties>
+	    	</ExpeditionAttribute>
+	    	<Locked/>
+	    	<DivingBellUpgrade/>
+	    </Values>
+    </Asset>
+  </ModOp>
+  <!-- Felix Friedrich -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>TownhallItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340026</GUID>
+          <Name>Felix Friedrich</Name>
+          <IconFilename>data/graphics/icons/icon_felix_friedrich.png</IconFilename>
+          <InfoDescription>2122340027</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>Townhall</Allocation>
+          <TradePrice>1500000</TradePrice>
+          <TradePriceOnlineCurrency>100</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade />
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190762</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+	  	  <ExpeditionAttribute>
+	  		<BaseMorale>15</BaseMorale>
+	  		  <ExpeditionAttributes>
+	  			  <Item>
+	  			  	<Attribute>PerkMale</Attribute>
+	  			  	<Amount>1</Amount>
+	  			  </Item>
+	  			  <Item>
+	  			  	<Attribute>PerkPolyglot</Attribute>
+	  			  	<Amount>1</Amount>
+	  			  </Item>
+	  			  <Item>
+	  			  	<Attribute>PerkHypnotist</Attribute>
+	  			  	<Amount>1</Amount>
+	  			  </Item>
+	  			  <Item>
+	  			  	<Attribute>Diplomacy</Attribute>
+	  			  	<Amount>60</Amount>
+	  			  </Item>
+	  			  <Item>
+	  			  	<Attribute>Medicine</Attribute>
+	  			  	<Amount>40</Amount>
+	  			  </Item>
+	  			  <Item>
+	  			  	<Attribute>Crafting</Attribute>
+	  			  	<Amount>30</Amount>
+            </Item>
+	  		  </ExpeditionAttributes>
+	  		  <ItemDifficulties>Average;Hard</ItemDifficulties>
+	  	  </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade />
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade>
+	  		  <NeedProvideNeedUpgrade>
+	  		  	<Item>
+	  		  		<ProvidedNeed>120016</ProvidedNeed>
+	  		  		<SubstituteNeed>1010355</SubstituteNeed>
+	  		  	</Item>
+	  		  	<Item>
+	  		  		<ProvidedNeed>1010248</ProvidedNeed>
+	  		  		<SubstituteNeed>1010355</SubstituteNeed>
+	  		  	</Item>
+	  		  </NeedProvideNeedUpgrade>
+	  	  </ResidenceUpgrade>
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Dominik Hummel -->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>2122340028</GUID>
+          <Name>Dominik Hummel</Name>
+          <IconFilename>data/graphics/icons/icon_dominik_hummel.png</IconFilename>
+          <InfoDescription>2122340029</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Item Template</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>5700000</TradePrice>
+          <TradePriceOnlineCurrency>200</TradePriceOnlineCurrency>
+        </Item>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>117699</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Product>112702</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+          <ReplaceInputs>
+            <OldInput>1010241</OldInput>
+            <NewInput>1010228</NewInput>
+          </ReplaceInputs>
+		    	<ProductivityUpgrade>
+		    		<Value>50</Value>
+		    		<Percental>1</Percental>
+		    	</ProductivityUpgrade>
+		    </FactoryUpgrade>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010286</GUID>
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ItemAction />
+        <ExpeditionAttribute>
+          <ItemDifficulties>Average;Hard</ItemDifficulties>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+        <CultureUpgrade />
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>-15</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+        </BuildingUpgrade>
+        <ModuleOwnerUpgrade />
+        <IncidentInfluencerUpgrade />
+        <IncidentInfectableUpgrade />
+        <ResidenceUpgrade />
+        <PopulationUpgrade />
+        <IndustrializableUpgrade />
+        <Locked />
+        <Buff />
+        <CraftableItem />
+        <HeaterUpgrade />
+        <PowerplantUpgrade />
+        <IrrigationUpgrade />
+        <EcoSystemProviderUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

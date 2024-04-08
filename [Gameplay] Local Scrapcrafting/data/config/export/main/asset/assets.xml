@@ -1,0 +1,106 @@
+<ModOps>
+  <ModOp Type="add" GUID='77' Path="/Values/ItemCrafter/CraftableItemsInRegion/Moderate/CraftableItems">
+    <Item>
+      <Item>112520</Item>
+    </Item>
+    <Item>
+      <Item>112523</Item>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='112520' Path="/Values">
+    <Item>
+      <Allocation>None</Allocation>
+    </Item>
+    <CraftableItem>
+      <CraftingCosts>
+        <Item>
+          <Product>112518</Product>
+          <Amount>5</Amount>
+        </Item>
+      </CraftingCosts>
+    </CraftableItem>
+  </ModOp>
+  <ModOp Type="add" GUID='112523' Path="/Values">
+    <Item>
+      <Allocation>None</Allocation>
+    </Item>
+    <CraftableItem>
+      <CraftingCosts>
+        <Item>
+          <Product>112520</Product>
+          <Amount>5</Amount>
+        </Item>
+      </CraftingCosts>
+    </CraftableItem>
+  </ModOp>
+  <!-- SCRAPER-69 >
+  <ModOp Type="add" GUID='2122340014' Path="/Values">
+    <Item>
+      <Allocation>None</Allocation>
+    </Item>
+    <CraftableItem>
+      <CraftingCosts>
+        <Item>
+          <Product>112518</Product>
+          <Amount>50</Amount>
+        </Item>
+        <Item>
+          <Product>1010197</Product>
+          <Amount>50</Amount>
+        </Item>
+        <Item>
+          <Product>1010219</Product>
+          <Amount>10</Amount>
+        </Item>
+      </CraftingCosts>
+    </CraftableItem>
+  </ModOp-->
+  <!-- SCRAPER-420 >
+  <ModOp Type="add" GUID='2122340016' Path="/Values">
+    <Item>
+      <Allocation>None</Allocation>
+    </Item>
+    <CraftableItem>
+      <CraftingCosts>
+        <Item>
+          <Product>112520</Product>
+          <Amount>50</Amount>
+        </Item>
+        <Item>
+          <Product>1010240</Product>
+          <Amount>50</Amount>
+        </Item>
+        <Item>
+          <Product>1010219</Product>
+          <Amount>20</Amount>
+        </Item>
+      </CraftingCosts>
+    </CraftableItem>
+  </ModOp-->
+  <!-- SCRAPER-1337 >
+  <ModOp Type="add" GUID='2122340018' Path="/Values">
+    <Item>
+      <Allocation>None</Allocation>
+    </Item>
+    <CraftableItem>
+      <CraftingCosts>
+        <Item>
+          <Product>112523</Product>
+          <Amount>50</Amount>
+        </Item>
+        <Item>
+          <Product>1010240</Product>
+          <Amount>40</Amount>
+        </Item>
+        <Item>
+          <Product>1010204</Product>
+          <Amount>20</Amount>
+        </Item>
+        <Item>
+          <Product>1010218</Product>
+          <Amount>10</Amount>
+        </Item>
+      </CraftingCosts>
+    </CraftableItem>
+  </ModOp-->
+</ModOps>

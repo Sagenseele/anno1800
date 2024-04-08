@@ -1,0 +1,157 @@
+<ModOps>
+  <!-- START Daniel Straub, Expert for healthy mixed consumption-->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340002</GUID>
+      <Text>Daniel Straub, Expert for healthy mixed consumption</Text>
+    </Text>
+    <Text>
+      <GUID>2122340003</GUID>
+      <Text>Daniel Straub is an expert in the culinary fields with a tendency for additional flamboyance.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Betty Frakes, Professional butcher's clerk-->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340004</GUID>
+      <Text>Betty Frakes, professional butcher's clerk</Text>
+    </Text>
+    <Text>
+      <GUID>2122340005</GUID>
+      <Text>Betty Frakes is good at selling all kinds of meat. However, the place of origin is not always known.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Lea Kraft, Anti-Fur Protester-->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340006</GUID>
+      <Text>Lea Kraft, Anti-Fur Protester</Text>
+    </Text>
+    <Text>
+      <GUID>2122340007</GUID>
+      <Text>Lea is a passionate opponent of fur of all kinds. She is very inventive when it comes to substitutes for fur.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Thomas Hartmann, Honeyman-->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340008</GUID>
+      <Text>Thomas Hartmann of Honey</Text>
+    </Text>
+    <Text>
+      <GUID>2122340009</GUID>
+      <Text>Thomas is a self-made man in the bee business. He is very efficient when it comes to handling bees and processing their products. He's never been stung, at least that's what he says...</Text>
+    </Text>
+  </ModOp>
+  <!-- START Lisa Anselmann, Bookworm-->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340010</GUID>
+      <Text>Lisa Anselmann, Bookworm</Text>
+    </Text>
+    <Text>
+      <GUID>2122340011</GUID>
+      <Text>Lisa loves reading and lets others participate by distributing writings. If you can find her under the mountain of books...</Text>
+    </Text>
+  </ModOp>
+  <!-- START Jeffrey Journeyman,-->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340012</GUID>
+      <Text>Jeffrey Journeyman, fastet Postman in the West</Text>
+    </Text>
+    <Text>
+      <GUID>2122340013</GUID>
+      <Text>Who's driving so late through streets and alleys? It is Jeffrey in his postman rally; He holds the letters embraced in his arm, He clasps them snugly, he keeps them warm.</Text>
+    </Text>
+  </ModOp>
+  <!-- START SCRAPER-69 -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340014</GUID>
+      <Text>SCRAPER-69</Text>
+    </Text>
+    <Text>
+      <GUID>2122340015</GUID>
+      <Text>A small net into which worthless scrap is occasionally flushed.</Text>
+    </Text>
+  </ModOp>
+  <!-- START SCRAPER-420 -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340016</GUID>
+      <Text>SCRAPER-420</Text>
+    </Text>
+    <Text>
+      <GUID>2122340017</GUID>
+      <Text>A medium-sized net into which some nice scrap is occasionally flushed.</Text>
+    </Text>
+  </ModOp>
+  <!-- START SCRAPER-1337 -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340018</GUID>
+      <Text>SCRAPER-1337</Text>
+    </Text>
+    <Text>
+      <GUID>2122340019</GUID>
+      <Text>A large net into which beautiful scrap is occasionally flushed.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Jill Bye -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340020</GUID>
+      <Text>Jill Bye, the fertilizer guy</Text>
+    </Text>
+    <Text>
+      <GUID>2122340021</GUID>
+      <Text>When the man dressed in a white coat starts talking about scientific processes, there is hardly anyone who doesn't listen to him with rapt attention.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Paul Becker -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340022</GUID>
+      <Text>Paul Becker, the GOAT</Text>
+    </Text>
+    <Text>
+      <GUID>2122340023</GUID>
+      <Text>This man is an absolute unit. There's nothing he can't do. Everything he does, he does it with passion and dedication. Truly the greatest of all time. It always smells of coffee and delicious wraps nearby.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Lucas Jones -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340024</GUID>
+      <Text>Lucas "Indie" Jones, the American</Text>
+    </Text>
+    <Text>
+      <GUID>2122340025</GUID>
+      <Text>Living the American dream, Lucas has managed to be promoted from a simple cabin boy to admiral of a fleet. His special technique of first wearing down and then destroying the enemy plays a special role. No ship in the world can escape him.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Felix Friedrich -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340026</GUID>
+      <Text>Felix "Fixu" Friedrich, Master of rhetoric</Text>
+    </Text>
+    <Text>
+      <GUID>2122340027</GUID>
+      <Text>Even though Felix used to have a menial job, his rhetorical skills and open and honest charm have earned him respect and a silver tongue. However, you should always have earplugs with you when you're around him, because once he starts talking, he never stops.</Text>
+    </Text>
+  </ModOp>
+
+  <!-- START Dominik Hummel -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340028</GUID>
+      <Text>Dominik Hummel, Leuchtmittelexperte</Text>
+    </Text>
+    <Text>
+      <GUID>2122340029</GUID>
+      <Text>Dominik can hardly contain himself with new ideas. Even in the dead of night, you can make out his outline when a light comes on. Although glowing in the dark is never a good sign, it doesn't stop him from bringing new ideas into the world.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

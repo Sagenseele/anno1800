@@ -1,0 +1,157 @@
+<ModOps>
+  <!-- START Daniel Straub, Experte des gesunden Mischkonsums -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340002</GUID>
+      <Text>Daniel Straub, Experte des gesunden Mischkonsums</Text>
+    </Text>
+    <Text>
+      <GUID>2122340003</GUID>
+      <Text>Daniel Straub ist ein Experte auf dem Gebiet der besonderen kulinarischen Erlebnisse mit dem Hang zum extravaganten.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Betty Frakes, Metzgereifachangestellte -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340004</GUID>
+      <Text>Betty Frakes, Metzgereifachangestellte</Text>
+    </Text>
+    <Text>
+      <GUID>2122340005</GUID>
+      <Text>Betty Frakes ist gut darin alle Sorten von Fleisch zu verkaufen. Der Ursprungsort ist allerdings nicht immer bekannt.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Lea Kraft, Anti-Pelz Demonstrant -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340006</GUID>
+      <Text>Lea Kraft, Anti-Pelz Demonstrant</Text>
+    </Text>
+    <Text>
+      <GUID>2122340007</GUID>
+      <Text>Lea ist eine leidenschaftliche Gegnerin von Pelzen aller Art. Dabei ist sie sehr erfinderisch, wenn es um Ersatz für Felle geht.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Thomas Hartmann, Mann des Honigs -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340008</GUID>
+      <Text>Thomas Hartmann des Honigs</Text>
+    </Text>
+    <Text>
+      <GUID>2122340009</GUID>
+      <Text>Thomas ist ein selbstgemachter Mann im Bienen-Businness. Er ist sehr effizient, wenn es um den Umgang mit Bienen und die Verarbeitung deren Produkte geht. Er wurde noch nie gestochen, zumindest sagt er das...</Text>
+    </Text>
+  </ModOp>
+  <!-- START Lisa Anselmann, Lesemaus -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340010</GUID>
+      <Text>Lisa Anselmann, Lesemaus</Text>
+    </Text>
+    <Text>
+      <GUID>2122340011</GUID>
+      <Text>Lisa liest für ihr Leben gerne und lässt andere durch die Verbreitung von Schriften daran teilhaben. Wenn man sie unter dem Berg von Büchern noch findet...</Text>
+    </Text>
+  </ModOp>
+  
+  <!-- START Jeffrey Journeyman, Schnellster Postbote des Westens -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340012</GUID>
+      <Text>Jeffrey Journeyman, Schnellster Postbote des Westens</Text>
+    </Text>
+    <Text>
+      <GUID>2122340013</GUID>
+      <Text>Wer fährt so spät durch Straßen und Gassen, es ist Jeffrey mit seinen Postmanntaschen. Er hält die Briefe wohl in dem Arm, er fasst sie sicher, hält sie warm.</Text>
+    </Text>
+  </ModOp>
+  <!-- START SCRAPER-69 -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340014</GUID>
+      <Text>SCRAPER-69</Text>
+    </Text>
+    <Text>
+      <GUID>2122340015</GUID>
+      <Text>Ein kleines Netz, in das ab und an wertloser Schrott gespült wird.</Text>
+    </Text>
+  </ModOp>
+  <!-- START SCRAPER-420 -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340016</GUID>
+      <Text>SCRAPER-420</Text>
+    </Text>
+    <Text>
+      <GUID>2122340017</GUID>
+      <Text>Ein mittelgroßes Netz, in das ab und an netter Schrott gespült wird.</Text>
+    </Text>
+  </ModOp>
+  <!-- START SCRAPER-1337 -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340018</GUID>
+      <Text>SCRAPER-1337</Text>
+    </Text>
+    <Text>
+      <GUID>2122340019</GUID>
+      <Text>Ein großes Netz, in das ab und an wunderschöner Schrott gespült wird.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Jill Bye -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340020</GUID>
+      <Text>Jill Bye, Düngersynthetisierer</Text>
+    </Text>
+    <Text>
+      <GUID>2122340021</GUID>
+      <Text>Wenn der in einem weißen Kittel bekleidete Mann anfängt über Wissenschaftliche Vorgänge zu sprechen, gibt es kaum jemanden, der ihm nicht gespannt zuhört.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Paul Becker -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340022</GUID>
+      <Text>Paul Becker, der beste aller Zeiten</Text>
+    </Text>
+    <Text>
+      <GUID>2122340023</GUID>
+      <Text>Dieser Mann ist eine richtige Einheit. Es gibt nichts, was er nicht kann. Alles, was er macht, vollzieht er mit Leidenschaft und Hingabe. Wahrlich der Größte aller Zeiten. In seiner Nähe duftet es immer nach Kaffee und leckeren Wraps.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Lucas Jones -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340024</GUID>
+      <Text>Lucas "Indie" Jones, der Amerikaner</Text>
+    </Text>
+    <Text>
+      <GUID>2122340025</GUID>
+      <Text>Den amerikanischen Traum lebend, hat Lucas es geschafft, vom einfachen Kajütenjungen zum Admiral einer Flotte befördert zu werden. Dabei spielt seine besondere Technik, den Gegner erst zu zermürben und dann zu vernichten eine besondere Rolle. Kein Schiff der Welt kann sich vor ihm entziehen.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Felix Friedrich -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340026</GUID>
+      <Text>Felix "Fixu" Friedrich, Meister der Rhetorik</Text>
+    </Text>
+    <Text>
+      <GUID>2122340027</GUID>
+      <Text>Auch wenn Felix früher einen niederen Beruf ausübte, konnte er sich durch seine rhetorischen Fähigkeiten und den offenen und ehrlichen Charme Ehrfurcht und eine silberne Zunge erarbeiten. Man sollte in seiner Nähe jedoch immer Ohrenstöpsel dabei haben, denn wenn er einmal anfängt zu reden, hört er gar nicht mehr auf.</Text>
+    </Text>
+  </ModOp>
+  <!-- START Dominik Hummel -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122340028</GUID>
+      <Text>Dominik Hummel, Leuchtmittelexperte</Text>
+    </Text>
+    <Text>
+      <GUID>2122340029</GUID>
+      <Text>Dominik kann sich kaum halten vor neuen Ideen. Selbst in tiefster Nacht kann man seine Umrisse erkennen, wenn ihm ein Licht aufgeht. Obwohl leuchten im Dunkeln sonst nie ein gutes Zeichen ist, hält ihn das nicht davon ab, neue Ideen in die Welt zu tragen.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
