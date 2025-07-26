@@ -76,7 +76,7 @@
   <ModOp Type="add" GUID="192730" Path="/Values/RewardPool/ItemsPool"> <!-- Specialists - European Goods - Rare -->
     <Item>
       <ItemLink>2122340020</ItemLink>
-      <Weight>10</Weight> <!-- Jill Bye 2122340020-2122340021-->
+      <Weight>5</Weight> <!-- Jill Bye 2122340020-2122340021-->
     </Item>
   </ModOp>
 
@@ -121,7 +121,7 @@
   <ModOp Type="add" GUID="193977" Path="/Values/RewardPool/ItemsPool"> <!-- Specialists - European Goods - Rare - Guild -->
     <Item>
       <ItemLink>2122340020</ItemLink>
-      <Weight>10</Weight> <!-- Jill Bye 2122340020-2122340021-->
+      <Weight>5</Weight> <!-- Jill Bye 2122340020-2122340021-->
     </Item>
   </ModOp>
 
