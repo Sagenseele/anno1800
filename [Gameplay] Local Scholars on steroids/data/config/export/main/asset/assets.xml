@@ -48,17 +48,17 @@
   <!-- RecipeResearchCostBalancing -->
 
   <ModOp Type="add" GUID='123401' Path="/Values/ProgressBalancing">
-    <AbsoluteLimit>2500</AbsoluteLimit>
+    <AbsoluteLimit>2000</AbsoluteLimit>
   </ModOp>
 
   <ModOp Type="replace" GUID='123401' Path="/Values/ProgressBalancing/Progress/Item/Value">
-    <Value>100</Value>
+    <Value>200</Value>
   </ModOp>
 
   <!-- Rare Items -->
 
   <ModOp Type="add" GUID='128953' Path="/Values/ProgressBalancing">
-    <AbsoluteLimit>5000</AbsoluteLimit>
+    <AbsoluteLimit></AbsoluteLimit>
   </ModOp>
 
   <ModOp Type="replace" GUID='128953' Path="/Values/ProgressBalancing/Progress/Item/Value">
@@ -86,7 +86,7 @@
   <!-- Legendary Items -->
 
   <ModOp Type="add" GUID='128955' Path="/Values/ProgressBalancing">
-    <AbsoluteLimit>50000</AbsoluteLimit>
+    <AbsoluteLimit>0</AbsoluteLimit>
   </ModOp>
 
   <ModOp Type="replace" GUID='128955' Path="/Values/ProgressBalancing/Progress/Item/Value">
@@ -104,7 +104,7 @@
   <!-- ResearchFeature -->
 
   <ModOp GUID = '120244' Type = "replace" Path = '/Values/ResearchFeature/ItemCraftingConfig/*/MaximumWorkforceAmount'>
-        <MaximumWorkforceAmount>5000</MaximumWorkforceAmount>
+        <MaximumWorkforceAmount>10000</MaximumWorkforceAmount>
   </ModOp>
 
   <ModOp GUID = '120244' Type = "replace" Path = '/Values/ResearchFeature/ItemCraftingConfig/*/MinimumWorkforceAmount'>
